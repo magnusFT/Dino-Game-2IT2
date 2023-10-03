@@ -13,6 +13,7 @@
     background-size: 50px 50px;
     position: relative;
     top: 150px;
+    z-index: 1;
 }
 
 #kaktus {
@@ -23,7 +24,6 @@
     position: relative;
     left: 570px;
     top: 120px;
-    overflow: hidden;
     animation: kaktusBevegelse 2s linear infinite;
 }
 
