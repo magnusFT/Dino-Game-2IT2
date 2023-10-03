@@ -23,6 +23,7 @@
     position: relative;
     left: 570px;
     top: 120px;
+    overflow: hidden;
     animation: kaktusBevegelse 2s linear infinite;
 }
 
