@@ -14,3 +14,19 @@
     position: relative;
     top: 150px;
 }
+
+#kaktus {
+    width: 30px;
+    height: 30px;
+    background-image: url("cactus.png");
+    background-size: 30px 30px;
+    position: relative;
+    left: 570px;
+    top: 120px;
+    animation: kaktusBevegelse 2s linear infinite;
+}
+
+@keyframes kaktusBevegelse{
+    from {left: 570px;}
+    to {left:0px;}
+}
